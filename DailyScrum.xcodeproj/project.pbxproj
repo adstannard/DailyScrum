@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D708E28C25EEDCFC00A90CFC /* DailyScrumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708E28B25EEDCFC00A90CFC /* DailyScrumApp.swift */; };
+		D708E28E25EEDCFC00A90CFC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708E28D25EEDCFC00A90CFC /* MeetingView.swift */; };
+		D708E29325EEDCFD00A90CFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D708E29225EEDCFD00A90CFC /* Preview Assets.xcassets */; };
+		D708E2A325EEE30700A90CFC /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708E2A225EEE30700A90CFC /* DailyScrum.swift */; };
+		D708E2A625EFE57F00A90CFC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708E2A525EFE57F00A90CFC /* CardView.swift */; };
+		D708E2A925EFF0F000A90CFC /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708E2A825EFF0F000A90CFC /* Color+Codable.swift */; };
+		D708E2B025EFF30300A90CFC /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708E2AF25EFF30300A90CFC /* ScrumsView.swift */; };
+		D77E0673262092DE00398885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77E0672262092DE00398885 /* Assets.xcassets */; };
+		D7FE262825F573BB00C8FBC5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FE262725F573BB00C8FBC5 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D708E28825EEDCFC00A90CFC /* DailyScrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyScrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D708E28B25EEDCFC00A90CFC /* DailyScrumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrumApp.swift; sourceTree = "<group>"; };
+		D708E28D25EEDCFC00A90CFC /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		D708E29225EEDCFD00A90CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D708E29425EEDCFD00A90CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D708E2A225EEE30700A90CFC /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		D708E2A525EFE57F00A90CFC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D708E2A825EFF0F000A90CFC /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		D708E2AF25EFF30300A90CFC /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		D77E0672262092DE00398885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7FE262725F573BB00C8FBC5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D708E28525EEDCFC00A90CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D708E27F25EEDCFC00A90CFC = {
+			isa = PBXGroup;
+			children = (
+				D708E28A25EEDCFC00A90CFC /* DailyScrum */,
+				D708E28925EEDCFC00A90CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D708E28925EEDCFC00A90CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D708E28825EEDCFC00A90CFC /* DailyScrum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D708E28A25EEDCFC00A90CFC /* DailyScrum */ = {
+			isa = PBXGroup;
+			children = (
+				D708E28B25EEDCFC00A90CFC /* DailyScrumApp.swift */,
+				D7FE261925F51C7900C8FBC5 /* Views */,
+				D708E29C25EEE29700A90CFC /* Models */,
+				D77E0672262092DE00398885 /* Assets.xcassets */,
+				D708E29425EEDCFD00A90CFC /* Info.plist */,
+				D708E29125EEDCFD00A90CFC /* Preview Content */,
+			);
+			path = DailyScrum;
+			sourceTree = "<group>";
+		};
+		D708E29125EEDCFD00A90CFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D708E29225EEDCFD00A90CFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D708E29C25EEE29700A90CFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D708E2A825EFF0F000A90CFC /* Color+Codable.swift */,
+				D708E2A225EEE30700A90CFC /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7FE261925F51C7900C8FBC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D708E2AF25EFF30300A90CFC /* ScrumsView.swift */,
+				D708E2A525EFE57F00A90CFC /* CardView.swift */,
+				D708E28D25EEDCFC00A90CFC /* MeetingView.swift */,
+				D7FE262725F573BB00C8FBC5 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D708E28725EEDCFC00A90CFC /* DailyScrum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D708E29725EEDCFD00A90CFC /* Build configuration list for PBXNativeTarget "DailyScrum" */;
+			buildPhases = (
+				D708E28425EEDCFC00A90CFC /* Sources */,
+				D708E28525EEDCFC00A90CFC /* Frameworks */,
+				D708E28625EEDCFC00A90CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyScrum;
+			productName = DailyScrum;
+			productReference = D708E28825EEDCFC00A90CFC /* DailyScrum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D708E28025EEDCFC00A90CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D708E28725EEDCFC00A90CFC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D708E28325EEDCFC00A90CFC /* Build configuration list for PBXProject "DailyScrum" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D708E27F25EEDCFC00A90CFC;
+			productRefGroup = D708E28925EEDCFC00A90CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D708E28725EEDCFC00A90CFC /* DailyScrum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D708E28625EEDCFC00A90CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D708E29325EEDCFD00A90CFC /* Preview Assets.xcassets in Resources */,
+				D77E0673262092DE00398885 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D708E28425EEDCFC00A90CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D708E28E25EEDCFC00A90CFC /* MeetingView.swift in Sources */,
+				D708E2B025EFF30300A90CFC /* ScrumsView.swift in Sources */,
+				D708E2A325EEE30700A90CFC /* DailyScrum.swift in Sources */,
+				D7FE262825F573BB00C8FBC5 /* DetailView.swift in Sources */,
+				D708E2A625EFE57F00A90CFC /* CardView.swift in Sources */,
+				D708E2A925EFF0F000A90CFC /* Color+Codable.swift in Sources */,
+				D708E28C25EEDCFC00A90CFC /* DailyScrumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D708E29525EEDCFD00A90CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D708E29625EEDCFD00A90CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D708E29825EEDCFD00A90CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyScrum/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BBK94JFPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyScrum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indysoftware.DailyScrum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D708E29925EEDCFD00A90CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyScrum/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BBK94JFPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyScrum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.indysoftware.DailyScrum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D708E28325EEDCFC00A90CFC /* Build configuration list for PBXProject "DailyScrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D708E29525EEDCFD00A90CFC /* Debug */,
+				D708E29625EEDCFD00A90CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D708E29725EEDCFD00A90CFC /* Build configuration list for PBXNativeTarget "DailyScrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D708E29825EEDCFD00A90CFC /* Debug */,
+				D708E29925EEDCFD00A90CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D708E28025EEDCFC00A90CFC /* Project object */;
+}
